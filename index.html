@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Vacation Suggester</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Where to travel next?</h1>
+      <p>Find your perfect travel destination instantly</p>
+
+      <form id="vacation">
+        <div class="form-group">
+          <label for="name">Enter you name</label>
+          <input id="name" class="form-control" type="text">
+        </div>
+
+        <div class="form-group">
+          <label for="address">Where are you from?</label>
+          <input id="address" class="form-control" type="text">
+        </div>
+
+        <div class="form-group">
+          <label for="activity">What do you enjoy doing on a holiday?</label>
+          <select id="activity" class="form-control">
+            <option>Hike and camp</option>
+            <option>Lay on the beach</option>
+            <option>Explore the city</option>
+            <option>Eat curry</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="local">You look forward to...</label>
+          <select id="local" class="form-control">
+            <option>Try the local beer</option>
+            <option>Learn how to say "beer" in local language</option>
+            <option>Play billiard and drink some rum</option>
+            <option>Unplug myself and meditate</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="star">Your zodiac sign is:</label>
+          <select id="star" class="form-control">
+            <option>Not sure</option>
+            <option>Explorer</option>
+            <option>Fish, Aquarius or Taurus</option>
+            <option>Other</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="relax">I relax best when I:</label>
+          <select id="relax" class="form-control">
+            <option>Read</option>
+            <option>Do yoga</option>
+            <option>Am outside of my comfort zone</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="company">I like to travel with</label>
+          <select id="company" class="form-control">
+            <option>My family</option>
+            <option>Friends</option>
+            <option>Solo</option>
+          </select>
+        </div>
+
+        <button type="submit" class="btn btn-success">Submit</button>
+      </form>
+
+      <div id="result">
+        <h2><span class="name"></span>, you would have fun in <span class="result"></span>!</h2>
+        <p>Go ahead, back your bags and take a break from <span class="address"></span>!</p>
+        <img class="result-img" src="" alt="Vacation destination">
+      </div>
+    </div>
+  </body>
+</html>
