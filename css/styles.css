@@ -1,8 +1,25 @@
+.container {
+  width: 50%;
+}
+
+.jumbotron {
+  text-align: center;
+}
+
 #result {
   display: none;
+  text-align: center;
 }
 
 .result-img {
   width: 800px;
   height: 400px;
+}
+
+.error {
+  color: darkred;
+}
+
+.btn {
+  margin-bottom: 20px;
 }
