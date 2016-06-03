@@ -43,7 +43,6 @@ $(document).ready(function() {
       $("#vacation").slideUp();
       $("#result").show();
       $(".goback").show();
-
     }
     event.preventDefault();
   });
