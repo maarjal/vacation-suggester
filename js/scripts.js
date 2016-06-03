@@ -2,7 +2,6 @@ $(document).ready(function() {
   $("form#vacation").submit(function(event) {
     var name = $("input#name").val();
     $(".name").text(name);
-
     var address = $("input#address").val();
     $(".address").text(address);
 
@@ -23,19 +22,27 @@ $(document).ready(function() {
     } else if (activity === "Hike and camp" || relax === "Am outside of my comfort zone") {
       $(".result").text("Kyrgyzstan");
       $(".result-img").attr("src", "img/kyrgyzstan.png");
+      $("#vacation").slideUp();
       $("#result").show();
+      $(".goback").show();
     } else if (activity === "Lay on the beach" || local === "Play billiard and drink some rum") {
       $(".result").text("Barbados");
       $(".result-img").attr("src", "img/barbados.png");
+      $("#vacation").slideUp();
       $("#result").show();
+      $(".goback").show();
     } else if (relax === "Do yoga" || local === "Unplug myself and meditate") {
       $(".result").text("Soul & Surf, Kerala, India");
       $(".result-img").attr("src", "img/india.png");
+      $("#vacation").slideUp();
       $("#result").show();
+      $(".goback").show();
     } else {
       $(".result").text("Tallinn, Estonia");
       $(".result-img").attr("src", "img/tallinn.png");
+      $("#vacation").slideUp();
       $("#result").show();
+      $(".goback").show();
 
     }
     event.preventDefault();

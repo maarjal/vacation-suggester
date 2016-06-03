@@ -2,6 +2,18 @@ body {
   background-color: #FFF2F2;
 }
 
+.goback {
+  margin-left: 15px;
+  margin-top: 15px;
+  font-family: 'PT Sans Caption', sans-serif;
+  color: white;
+  display: none;
+}
+
+.goback:hover {
+  color: white;
+}
+
 .container {
   width: 50%;
 }
@@ -26,15 +38,29 @@ text-transform: uppercase;
   padding-top: 5px;
 }
 
+
+
+/*form {
+  display: none;
+}*/
+
+/*#start {
+  margin: auto;
+  display: block;
+}*/
+
 .btn {
   background-color: #478084;
   border: none;
   font-family: 'PT Sans Caption', sans-serif;
+  margin-bottom: 20px;
+  color: white;
 }
 
 .btn:hover {
   background-color: #478084;
   font-weight: bold;
+  color: white;
 }
 
 #result {
@@ -64,8 +90,4 @@ text-transform: uppercase;
 
 .error {
   color: darkred;
-}
-
-.btn {
-  margin-bottom: 20px;
 }

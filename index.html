@@ -10,13 +10,16 @@
     <title>Vacation Suggester</title>
   </head>
   <body>
+
     <div class="container">
       <div class="jumbotron">
         <h1>Where to travel next?</h1>
         <p>Find your perfect travel destination instantly!</p>
       </div>
 
-      <form target="_blank" id="vacation">
+      <!-- <button id="start" type="submit" class="btn btn-lg btn-success">Start</button> -->
+
+      <form id="vacation">
         <div class="form-group name-form">
           <label for="name">Enter you name</label>
           <input id="name" class="form-control" type="text">
@@ -75,7 +78,7 @@
           </select>
         </div>
 
-        <button type="submit" class="btn btn-lg btn-success">Submit</button>
+        <button type="submit" class="btn btn-lg btn-default">Submit</button>
       </form>
 
       <div id="result">
@@ -83,6 +86,9 @@
         <p>Go ahead, back your bags and take a break from <span class="address"></span>!</p>
         <img class="result-img" src="" alt="Vacation destination">
       </div>
+
+      <a href="index.html"><button type="button" class="btn btn-lg btn-default goback">Take the quiz again!</button></a>
+
     </div>
   </body>
 </html>
