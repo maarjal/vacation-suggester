@@ -25,13 +25,13 @@ $(document).ready(function() {
       $("#vacation").slideUp();
       $("#result").show();
       $(".goback").show();
-    } else if (activity === "Lay on the beach" || local === "Play billiard and drink some rum") {
+    } else if (activity === "Lie on the beach" || local === "Play billiard and drink some rum") {
       $(".result").text("Barbados");
       $(".result-img").attr("src", "img/barbados.png");
       $("#vacation").slideUp();
       $("#result").show();
       $(".goback").show();
-    } else if (activity === "Eat carry" || relax === "Do yoga" || local === "Unplug myself and meditate") {
+    } else if (activity === "Eat curry" || relax === "Do yoga" || local === "Unplug yourself and meditate") {
       $(".result").text("Soul & Surf, Kerala, India");
       $(".result-img").attr("src", "img/india.png");
       $("#vacation").slideUp();
