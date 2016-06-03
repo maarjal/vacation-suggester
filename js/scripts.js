@@ -31,7 +31,7 @@ $(document).ready(function() {
       $("#vacation").slideUp();
       $("#result").show();
       $(".goback").show();
-    } else if (relax === "Do yoga" || local === "Unplug myself and meditate") {
+    } else if (activity === "Eat carry" || relax === "Do yoga" || local === "Unplug myself and meditate") {
       $(".result").text("Soul & Surf, Kerala, India");
       $(".result-img").attr("src", "img/india.png");
       $("#vacation").slideUp();

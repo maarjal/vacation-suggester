@@ -1,5 +1,5 @@
 body {
-  background-color: #FFF2F2;
+  background-color: #EAEAEA;
 }
 
 .goback {
@@ -70,7 +70,7 @@ text-transform: uppercase;
   width: 600px;
   height: 300px;
   display: block;
-  border: 2px solid #5CA4A9;
+  border: 1px solid #5CA4A9;
   border-radius: 10px;
 }
 
