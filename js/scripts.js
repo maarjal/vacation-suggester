@@ -33,8 +33,8 @@ $(document).ready(function() {
       $(".result-img").attr("src", "img/india.png");
       $("#result").show();
     } else {
-      $(".result").text("Copenhagen, Denmark");
-      $(".result-img").attr("src", "img/denmark.png");
+      $(".result").text("Tallinn, Estonia");
+      $(".result-img").attr("src", "img/tallinn.png");
       $("#result").show();
 
     }
